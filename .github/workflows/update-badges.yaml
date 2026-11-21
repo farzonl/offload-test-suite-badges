@@ -1,0 +1,59 @@
+name: Update Offload Test Suite Badges
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *' # update hourly
+
+concurrency:
+  group: update-badges
+  cancel-in-progress: false
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Generate badge JSON files
+        env:
+          OFFLOAD_READ_TOKEN: ${{ secrets.OFFLOAD_READ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 update_badges.py \
+            --repo llvm/offload-test-suite \
+            --branch main \
+            --out-dir _badges
+
+      - name: Publish to orphan badges branch
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin badges >/dev/null 2>&1; then
+            git fetch origin badges
+            git checkout -B badges origin/badges
+          else
+            git checkout --orphan badges
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          rm -f ./*.json
+          cp _badges/*.json .
+          rm -rf _badges
+
+          git add ./*.json
+          if git diff --cached --quiet -- ':!summary.json'; then
+            echo "No badge changes detected; skipping push."
+            exit 0
+          fi
+
+          git commit -m "Update llvm/offload-test-suite pass-rate badges"
+          git push origin badges
