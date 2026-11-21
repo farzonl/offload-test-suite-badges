@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "label": "DXC",
+  "message": "build failed",
+  "color": "red"
+}

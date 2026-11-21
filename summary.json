@@ -1,0 +1,615 @@
+{
+  "generatedAt": "2026-11-21T00:08:20.479401+00:00",
+  "repository": "llvm/offload-test-suite",
+  "branch": "main",
+  "workflows": {
+    "windows-intel-dxc-d3d12": {
+      "workflow": "windows-intel-dxc-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44808435898,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44808435898",
+      "updatedAt": "2026-11-20T20:36:13Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 788,
+        "failed": 0,
+        "xfail": 7,
+        "xpass": 0,
+        "unsupported": 70,
+        "passRate": 91.1
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "91.1%",
+        "color": "brightgreen"
+      }
+    },
+    "windows-intel-clang-d3d12": {
+      "workflow": "windows-intel-clang-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "success",
+      "runId": 44808188895,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44808188895",
+      "updatedAt": "2026-11-20T20:29:36Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 705,
+        "failed": 0,
+        "xfail": 90,
+        "xpass": 0,
+        "unsupported": 70,
+        "passRate": 81.5
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "81.5%",
+        "color": "green"
+      }
+    },
+    "windows-nvidia-dxc-d3d12": {
+      "workflow": "windows-nvidia-dxc-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44807473828,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44807473828",
+      "updatedAt": "2026-11-20T20:31:12Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 797,
+        "failed": 0,
+        "xfail": 5,
+        "xpass": 0,
+        "unsupported": 63,
+        "passRate": 92.1
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "92.1%",
+        "color": "brightgreen"
+      }
+    },
+    "windows-nvidia-clang-d3d12": {
+      "workflow": "windows-nvidia-clang-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "success",
+      "runId": 44807759510,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44807759510",
+      "updatedAt": "2026-11-20T20:36:41Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 700,
+        "failed": 0,
+        "xfail": 102,
+        "xpass": 0,
+        "unsupported": 63,
+        "passRate": 80.9
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "80.9%",
+        "color": "green"
+      }
+    },
+    "windows-amd-dxc-warp-d3d12": {
+      "workflow": "windows-amd-dxc-warp-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44790334069,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44790334069",
+      "updatedAt": "2026-11-20T18:57:43Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 799,
+        "failed": 2,
+        "xfail": 9,
+        "xpass": 0,
+        "unsupported": 55,
+        "passRate": 92.4
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "92.4% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-amd-clang-warp-d3d12": {
+      "workflow": "windows-amd-clang-warp-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789073471,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789073471",
+      "updatedAt": "2026-11-20T18:36:34Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 721,
+        "failed": 2,
+        "xfail": 95,
+        "xpass": 0,
+        "unsupported": 47,
+        "passRate": 83.4
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "83.4% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-dxc-warp-d3d12": {
+      "workflow": "windows-qc-dxc-warp-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44790393571,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44790393571",
+      "updatedAt": "2026-11-20T20:09:36Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 800,
+        "failed": 0,
+        "xfail": 10,
+        "xpass": 0,
+        "unsupported": 55,
+        "passRate": 92.5
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "92.5%",
+        "color": "brightgreen"
+      }
+    },
+    "windows-qc-clang-warp-d3d12": {
+      "workflow": "windows-qc-clang-warp-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "success",
+      "runId": 44789901558,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789901558",
+      "updatedAt": "2026-11-20T19:55:56Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 722,
+        "failed": 0,
+        "xfail": 96,
+        "xpass": 0,
+        "unsupported": 47,
+        "passRate": 83.5
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "83.5%",
+        "color": "green"
+      }
+    },
+    "windows-intel-dxc-vk": {
+      "workflow": "windows-intel-dxc-vk.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44807491754,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44807491754",
+      "updatedAt": "2026-11-20T20:26:06Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 649,
+        "failed": 0,
+        "xfail": 56,
+        "xpass": 0,
+        "unsupported": 160,
+        "passRate": 75.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "75.0%",
+        "color": "green"
+      }
+    },
+    "windows-intel-clang-vk": {
+      "workflow": "windows-intel-clang-vk.yaml",
+      "label": "Clang",
+      "conclusion": "success",
+      "runId": 44808319503,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44808319503",
+      "updatedAt": "2026-11-20T20:32:45Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 537,
+        "failed": 0,
+        "xfail": 172,
+        "xpass": 0,
+        "unsupported": 156,
+        "passRate": 62.1
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "62.1%",
+        "color": "yellowgreen"
+      }
+    },
+    "windows-amd-dxc-lavapipe": {
+      "workflow": "windows-amd-dxc-lavapipe.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44788766278,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44788766278",
+      "updatedAt": "2026-11-20T18:32:25Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 654,
+        "failed": 0,
+        "xfail": 54,
+        "xpass": 0,
+        "unsupported": 157,
+        "passRate": 75.6
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "75.6%",
+        "color": "green"
+      }
+    },
+    "windows-amd-clang-lavapipe": {
+      "workflow": "windows-amd-clang-lavapipe.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789749417,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789749417",
+      "updatedAt": "2026-11-20T18:45:50Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 537,
+        "failed": 0,
+        "xfail": 174,
+        "xpass": 1,
+        "unsupported": 153,
+        "passRate": 62.1
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "62.1% (fail)",
+        "color": "red"
+      }
+    },
+    "macos-dxc-mtl": {
+      "workflow": "macos-dxc-mtl.yaml",
+      "label": "DXC",
+      "conclusion": "success",
+      "runId": 44837886329,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44837886329",
+      "updatedAt": "2026-11-20T23:40:25Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 542,
+        "failed": 0,
+        "xfail": 138,
+        "xpass": 0,
+        "unsupported": 185,
+        "passRate": 62.7
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "62.7%",
+        "color": "yellowgreen"
+      }
+    },
+    "macos-clang-mtl": {
+      "workflow": "macos-clang-mtl.yaml",
+      "label": "Clang",
+      "conclusion": "success",
+      "runId": 44837768562,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44837768562",
+      "updatedAt": "2026-11-20T23:37:52Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 540,
+        "failed": 0,
+        "xfail": 140,
+        "xpass": 0,
+        "unsupported": 185,
+        "passRate": 62.4
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "62.4%",
+        "color": "yellowgreen"
+      }
+    },
+    "windows-amd-dxc-d3d12": {
+      "workflow": "windows-amd-dxc-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44788704647,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44788704647",
+      "updatedAt": "2026-11-20T18:28:51Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 778,
+        "failed": 18,
+        "xfail": 12,
+        "xpass": 0,
+        "unsupported": 57,
+        "passRate": 89.9
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "89.9% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-amd-clang-d3d12": {
+      "workflow": "windows-amd-clang-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789710631,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789710631",
+      "updatedAt": "2026-11-20T18:49:49Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 709,
+        "failed": 6,
+        "xfail": 93,
+        "xpass": 0,
+        "unsupported": 57,
+        "passRate": 82.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "82.0% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-dxc-d3d12": {
+      "workflow": "windows-qc-dxc-d3d12.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44789121798,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789121798",
+      "updatedAt": "2026-11-20T20:00:29Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 624,
+        "failed": 33,
+        "xfail": 12,
+        "xpass": 0,
+        "unsupported": 196,
+        "passRate": 72.1
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "72.1% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-clang-d3d12": {
+      "workflow": "windows-qc-clang-d3d12.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789639704,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789639704",
+      "updatedAt": "2026-11-20T19:51:45Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 633,
+        "failed": 31,
+        "xfail": 69,
+        "xpass": 0,
+        "unsupported": 132,
+        "passRate": 73.2
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "73.2% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-amd-dxc-vk": {
+      "workflow": "windows-amd-dxc-vk.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44789707263,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789707263",
+      "updatedAt": "2026-11-20T19:01:28Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 657,
+        "failed": 2,
+        "xfail": 118,
+        "xpass": 3,
+        "unsupported": 85,
+        "passRate": 76.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "76.0% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-amd-clang-vk": {
+      "workflow": "windows-amd-clang-vk.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789836113,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789836113",
+      "updatedAt": "2026-11-20T18:54:00Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 597,
+        "failed": 2,
+        "xfail": 182,
+        "xpass": 3,
+        "unsupported": 81,
+        "passRate": 69.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "69.0% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-nvidia-dxc-vk": {
+      "workflow": "windows-nvidia-dxc-vk.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44807471502,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44807471502",
+      "updatedAt": "2026-11-20T20:45:57Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 677,
+        "failed": 4,
+        "xfail": 139,
+        "xpass": 0,
+        "unsupported": 45,
+        "passRate": 78.3
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "78.3% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-nvidia-clang-vk": {
+      "workflow": "windows-nvidia-clang-vk.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44808028175,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44808028175",
+      "updatedAt": "2026-11-20T20:41:27Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 640,
+        "failed": 4,
+        "xfail": 178,
+        "xpass": 2,
+        "unsupported": 41,
+        "passRate": 74.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "74.0% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-dxc-vk": {
+      "workflow": "windows-qc-dxc-vk.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44790066136,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44790066136",
+      "updatedAt": "2026-11-20T20:04:46Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 577,
+        "failed": 15,
+        "xfail": 54,
+        "xpass": 2,
+        "unsupported": 217,
+        "passRate": 66.7
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "66.7% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-clang-vk": {
+      "workflow": "windows-qc-clang-vk.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44789519844,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44789519844",
+      "updatedAt": "2026-11-20T19:47:16Z",
+      "source": "logs",
+      "results": {
+        "total": 865,
+        "passed": 484,
+        "failed": 4,
+        "xfail": 164,
+        "xpass": 0,
+        "unsupported": 213,
+        "passRate": 56.0
+      },
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "56.0% (fail)",
+        "color": "red"
+      }
+    },
+    "windows-qc-dxc-lavapipe": {
+      "workflow": "windows-qc-dxc-lavapipe.yaml",
+      "label": "DXC",
+      "conclusion": "failure",
+      "runId": 44790098565,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44790098565",
+      "updatedAt": "2026-11-20T20:12:38Z",
+      "source": null,
+      "results": null,
+      "badge": {
+        "schemaVersion": 1,
+        "label": "DXC",
+        "message": "build failed",
+        "color": "red"
+      }
+    },
+    "windows-qc-clang-lavapipe": {
+      "workflow": "windows-qc-clang-lavapipe.yaml",
+      "label": "Clang",
+      "conclusion": "failure",
+      "runId": 44790142328,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44790142328",
+      "updatedAt": "2026-11-20T20:09:40Z",
+      "source": null,
+      "results": null,
+      "badge": {
+        "schemaVersion": 1,
+        "label": "Clang",
+        "message": "build failed",
+        "color": "red"
+      }
+    }
+  }
+}
