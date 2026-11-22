@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:03:56.936404+00:00",
+  "generatedAt": "2026-11-22T02:04:50.798315+00:00",
   "repository": "llvm/offload-test-suite",
   "branch": "main",
   "workflows": {
@@ -103,23 +103,23 @@
       "workflow": "windows-amd-dxc-warp-d3d12.yaml",
       "label": "DXC",
       "conclusion": "failure",
-      "runId": 44933929294,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933929294",
-      "updatedAt": "2026-11-21T18:53:59Z",
+      "runId": 44966611528,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966611528",
+      "updatedAt": "2026-11-22T01:08:19Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 806,
+        "total": 882,
+        "passed": 816,
         "failed": 2,
         "xfail": 9,
         "xpass": 0,
         "unsupported": 55,
-        "passRate": 92.4
+        "passRate": 92.5
       },
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "92.4% (fail)",
+        "message": "92.5% (fail)",
         "color": "red"
       }
     },
@@ -151,48 +151,48 @@
       "workflow": "windows-qc-dxc-warp-d3d12.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 44933988022,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933988022",
-      "updatedAt": "2026-11-21T20:08:33Z",
+      "runId": 44966646762,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966646762",
+      "updatedAt": "2026-11-22T01:53:31Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 807,
+        "total": 882,
+        "passed": 817,
         "failed": 0,
         "xfail": 10,
         "xpass": 0,
         "unsupported": 55,
-        "passRate": 92.5
+        "passRate": 92.6
       },
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "92.5%",
+        "message": "92.6%",
         "color": "brightgreen"
       }
     },
     "windows-qc-clang-warp-d3d12": {
       "workflow": "windows-qc-clang-warp-d3d12.yaml",
       "label": "Clang",
-      "conclusion": "success",
-      "runId": 44933734341,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933734341",
-      "updatedAt": "2026-11-21T19:21:39Z",
+      "conclusion": "failure",
+      "runId": 44966105246,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966105246",
+      "updatedAt": "2026-11-22T01:36:32Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 729,
-        "failed": 0,
+        "total": 882,
+        "passed": 738,
+        "failed": 1,
         "xfail": 96,
         "xpass": 0,
         "unsupported": 47,
-        "passRate": 83.6
+        "passRate": 83.7
       },
       "badge": {
         "schemaVersion": 1,
         "label": "Clang",
-        "message": "83.6%",
-        "color": "green"
+        "message": "83.7% (fail)",
+        "color": "red"
       }
     },
     "windows-intel-dxc-vk": {
@@ -295,9 +295,9 @@
       "workflow": "macos-dxc-mtl.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 44967210105,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44967210105",
-      "updatedAt": "2026-11-22T00:36:17Z",
+      "runId": 44972431762,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44972431762",
+      "updatedAt": "2026-11-22T01:43:05Z",
       "source": "logs",
       "results": {
         "total": 882,
@@ -319,9 +319,9 @@
       "workflow": "macos-clang-mtl.yaml",
       "label": "Clang",
       "conclusion": "failure",
-      "runId": 44968503811,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44968503811",
-      "updatedAt": "2026-11-22T00:54:08Z",
+      "runId": 44972276561,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44972276561",
+      "updatedAt": "2026-11-22T01:40:33Z",
       "source": "logs",
       "results": {
         "total": 882,
@@ -391,17 +391,17 @@
       "workflow": "windows-qc-dxc-d3d12.yaml",
       "label": "DXC",
       "conclusion": "failure",
-      "runId": 44933351202,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933351202",
-      "updatedAt": "2026-11-21T19:33:42Z",
+      "runId": 44965236026,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44965236026",
+      "updatedAt": "2026-11-22T01:44:12Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 631,
-        "failed": 33,
+        "total": 882,
+        "passed": 639,
+        "failed": 34,
         "xfail": 12,
         "xpass": 0,
-        "unsupported": 196,
+        "unsupported": 197,
         "passRate": 72.4
       },
       "badge": {
@@ -415,23 +415,23 @@
       "workflow": "windows-qc-clang-d3d12.yaml",
       "label": "Clang",
       "conclusion": "failure",
-      "runId": 44933607349,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933607349",
-      "updatedAt": "2026-11-21T19:17:29Z",
+      "runId": 44965754368,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44965754368",
+      "updatedAt": "2026-11-22T01:08:44Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 640,
-        "failed": 31,
+        "total": 882,
+        "passed": 648,
+        "failed": 32,
         "xfail": 69,
         "xpass": 0,
-        "unsupported": 132,
-        "passRate": 73.4
+        "unsupported": 133,
+        "passRate": 73.5
       },
       "badge": {
         "schemaVersion": 1,
         "label": "Clang",
-        "message": "73.4% (fail)",
+        "message": "73.5% (fail)",
         "color": "red"
       }
     },
@@ -463,23 +463,23 @@
       "workflow": "windows-amd-clang-vk.yaml",
       "label": "Clang",
       "conclusion": "failure",
-      "runId": 44933712894,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933712894",
-      "updatedAt": "2026-11-21T18:46:10Z",
+      "runId": 44966068009,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966068009",
+      "updatedAt": "2026-11-22T01:04:39Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 604,
-        "failed": 2,
+        "total": 882,
+        "passed": 613,
+        "failed": 3,
         "xfail": 182,
         "xpass": 3,
         "unsupported": 81,
-        "passRate": 69.3
+        "passRate": 69.5
       },
       "badge": {
         "schemaVersion": 1,
         "label": "Clang",
-        "message": "69.3% (fail)",
+        "message": "69.5% (fail)",
         "color": "red"
       }
     },
@@ -535,23 +535,23 @@
       "workflow": "windows-qc-dxc-vk.yaml",
       "label": "DXC",
       "conclusion": "failure",
-      "runId": 44933867749,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933867749",
-      "updatedAt": "2026-11-21T19:28:56Z",
+      "runId": 44966315527,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966315527",
+      "updatedAt": "2026-11-22T01:48:36Z",
       "source": "logs",
       "results": {
-        "total": 872,
-        "passed": 584,
+        "total": 882,
+        "passed": 586,
         "failed": 15,
-        "xfail": 54,
+        "xfail": 61,
         "xpass": 2,
-        "unsupported": 217,
-        "passRate": 67.0
+        "unsupported": 218,
+        "passRate": 66.4
       },
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "67.0% (fail)",
+        "message": "66.4% (fail)",
         "color": "red"
       }
     },
@@ -583,9 +583,9 @@
       "workflow": "windows-qc-dxc-lavapipe.yaml",
       "label": "DXC",
       "conclusion": "failure",
-      "runId": 44933815577,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44933815577",
-      "updatedAt": "2026-11-21T19:24:35Z",
+      "runId": 44966202188,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/44966202188",
+      "updatedAt": "2026-11-22T01:39:36Z",
       "source": null,
       "results": null,
       "badge": {
