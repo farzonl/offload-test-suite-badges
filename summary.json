@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:03:52.581741+00:00",
+  "generatedAt": "2026-11-24T06:05:48.568012+00:00",
   "repository": "llvm/offload-test-suite",
   "branch": "main",
   "workflows": {
@@ -198,17 +198,25 @@
     "windows-intel-dxc-vk": {
       "workflow": "windows-intel-dxc-vk.yaml",
       "label": "DXC",
-      "conclusion": "failure",
+      "conclusion": "success",
       "runId": 45323489766,
       "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45323489766",
-      "updatedAt": "2026-11-24T04:23:13Z",
-      "source": null,
-      "results": null,
+      "updatedAt": "2026-11-24T05:54:01Z",
+      "source": "logs",
+      "results": {
+        "total": 886,
+        "passed": 662,
+        "failed": 0,
+        "xfail": 64,
+        "xpass": 0,
+        "unsupported": 160,
+        "passRate": 74.7
+      },
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "build failed",
-        "color": "red"
+        "message": "74.7%",
+        "color": "yellowgreen"
       }
     },
     "windows-intel-clang-vk": {
@@ -287,9 +295,9 @@
       "workflow": "macos-dxc-mtl.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 45327451906,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45327451906",
-      "updatedAt": "2026-11-24T04:40:39Z",
+      "runId": 45334481760,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45334481760",
+      "updatedAt": "2026-11-24T05:41:11Z",
       "source": "logs",
       "results": {
         "total": 886,
@@ -311,9 +319,9 @@
       "workflow": "macos-clang-mtl.yaml",
       "label": "Clang",
       "conclusion": "success",
-      "runId": 45327333297,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45327333297",
-      "updatedAt": "2026-11-24T04:38:06Z",
+      "runId": 45334310428,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45334310428",
+      "updatedAt": "2026-11-24T05:38:32Z",
       "source": "logs",
       "results": {
         "total": 886,
