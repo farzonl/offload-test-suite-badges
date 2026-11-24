@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:04:01.281543+00:00",
+  "generatedAt": "2026-11-24T22:03:44.547305+00:00",
   "repository": "llvm/offload-test-suite",
   "branch": "main",
   "workflows": {
@@ -295,23 +295,23 @@
       "workflow": "macos-dxc-mtl.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 45482522747,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45482522747",
-      "updatedAt": "2026-11-24T20:40:56Z",
+      "runId": 45492756294,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45492756294",
+      "updatedAt": "2026-11-24T21:41:58Z",
       "source": "logs",
       "results": {
-        "total": 886,
-        "passed": 562,
+        "total": 887,
+        "passed": 563,
         "failed": 0,
         "xfail": 138,
         "xpass": 0,
         "unsupported": 186,
-        "passRate": 63.4
+        "passRate": 63.5
       },
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "63.4%",
+        "message": "63.5%",
         "color": "yellowgreen"
       }
     },
@@ -319,13 +319,13 @@
       "workflow": "macos-clang-mtl.yaml",
       "label": "Clang",
       "conclusion": "success",
-      "runId": 45482268223,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45482268223",
-      "updatedAt": "2026-11-24T20:38:21Z",
+      "runId": 45492492123,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45492492123",
+      "updatedAt": "2026-11-24T21:39:23Z",
       "source": "logs",
       "results": {
-        "total": 886,
-        "passed": 560,
+        "total": 887,
+        "passed": 561,
         "failed": 0,
         "xfail": 140,
         "xpass": 0,
