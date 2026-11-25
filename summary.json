@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T05:03:57.533797+00:00",
+  "generatedAt": "2026-11-25T07:04:08.542704+00:00",
   "repository": "llvm/offload-test-suite",
   "branch": "main",
   "workflows": {
@@ -247,9 +247,9 @@
       "workflow": "windows-amd-dxc-lavapipe.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 45514757833,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45514757833",
-      "updatedAt": "2026-11-25T01:10:03Z",
+      "runId": 45557571194,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45557571194",
+      "updatedAt": "2026-11-25T06:40:26Z",
       "source": "logs",
       "results": {
         "total": 887,
@@ -295,9 +295,9 @@
       "workflow": "macos-dxc-mtl.yaml",
       "label": "DXC",
       "conclusion": "success",
-      "runId": 45547783317,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45547783317",
-      "updatedAt": "2026-11-25T04:40:36Z",
+      "runId": 45562780409,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45562780409",
+      "updatedAt": "2026-11-25T06:55:58Z",
       "source": "logs",
       "results": {
         "total": 887,
@@ -319,9 +319,9 @@
       "workflow": "macos-clang-mtl.yaml",
       "label": "Clang",
       "conclusion": "success",
-      "runId": 45547719666,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45547719666",
-      "updatedAt": "2026-11-25T04:38:11Z",
+      "runId": 45562577911,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45562577911",
+      "updatedAt": "2026-11-25T06:53:26Z",
       "source": "logs",
       "results": {
         "total": 887,
@@ -391,23 +391,15 @@
       "workflow": "windows-qc-dxc-d3d12.yaml",
       "label": "DXC",
       "conclusion": "failure",
-      "runId": 45515723483,
-      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45515723483",
-      "updatedAt": "2026-11-25T00:41:57Z",
-      "source": "logs",
-      "results": {
-        "total": 887,
-        "passed": 644,
-        "failed": 34,
-        "xfail": 12,
-        "xpass": 0,
-        "unsupported": 197,
-        "passRate": 72.6
-      },
+      "runId": 45558066477,
+      "runUrl": "https://github.com/llvm/offload-test-suite/actions/runs/45558066477",
+      "updatedAt": "2026-11-25T06:56:36Z",
+      "source": null,
+      "results": null,
       "badge": {
         "schemaVersion": 1,
         "label": "DXC",
-        "message": "72.6% (fail)",
+        "message": "build failed",
         "color": "red"
       }
     },
