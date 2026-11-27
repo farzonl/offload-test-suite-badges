@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Clang",
-  "message": "82.2% (fail)",
-  "color": "red"
+  "message": "82.4%",
+  "color": "green"
 }
